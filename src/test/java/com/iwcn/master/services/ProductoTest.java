@@ -35,7 +35,7 @@ public class ProductoTest {
 	public void testSetId() {
 		Producto p = new Producto();
 		p.setId(1);
-		assertEquals("1", p.getId());
+		assertEquals(1, p.getId());
 		imprimir("Se verifica que se inserta el 'id'");
 	}
 	
